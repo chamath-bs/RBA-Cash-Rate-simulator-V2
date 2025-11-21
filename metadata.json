@@ -1,0 +1,5 @@
+{
+  "name": "RBA Cash Rate Simulator V2",
+  "description": "A stochastic simulation of the Australian economy and the RBA's cash rate reaction function based on a modified Taylor rule.",
+  "requestFramePermissions": []
+}

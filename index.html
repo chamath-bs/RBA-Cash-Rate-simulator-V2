@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RBA Rate Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                orange: '#FA4D16',
+                black: '#202021',
+                offwhite: '#F0EDEB',
+                'chart-orange': '#FA4D16',
+                'chart-red': '#E62102',
+                'chart-salmon': '#FB825C',
+                'chart-peach': '#F9CCAB',
+                'chart-pale': '#FCE5D5',
+                'chart-black': '#202021',
+                'chart-darkgrey': '#545454',
+                'chart-grey': '#7F7F7F',
+                'chart-lightgrey': '#A9A9A9',
+              }
+            },
+            fontFamily: {
+              sans: ['Rund', 'Arial', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+        "recharts": "https://aistudiocdn.com/recharts@^3.4.1"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
